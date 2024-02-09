@@ -1,46 +1,103 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Training 060224</title>
+    <link href="Css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Training 060224</title>
-  <link href="Css/style.css" rel="stylesheet" type="text/css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img src="Images/logo-coca-cola.png" alt="logo"
+        /></a>
 
-<body>
-  <section class="header">
-    <nav>
-      <a href="index.html"><img src="Images/logo-coca-cola.png"  alt="logo"></a> 
-      
-    <div class="nav-links">
-      <i class="fa fa-times"></i>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Course</a></li>
-        <li><a href="#">Contact Us</a></li>  
-      </ul>
-    </div>
-      <i class="fa fa-bars"></i>
-    </nav>
-    
-    <div class="text-box">
-      <h1>Coca-Cola</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <a href="#" class="hero-btn">Visit Us To Know More</a>
-    </div>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
 
-    
-    
-  
-  </section>
-<!-- <script src="script.js"></script> -->
-</body>
+      <div class="text-box">
+        <h1>Coca-Cola</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <a href="#" class="hero-btn">Visit Us To Know More</a>
+      </div>
+    </section>
 
+    <!-------- Course-------->
+
+    <section class="course">
+      <h1>Courses We Offer</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
+        tempore doloremque hic praesentium sed expedita debitis deserunt ad rem
+        vitae? Culpa exercitationem illum suscipit neque aliquam cum natus
+        corrupti quos.
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            exercitationem autem, nesciunt cupiditate a voluptas officiis
+            incidunt alias nihil reprehenderit suscipit corrupti saepe cumque.
+            Id qui corrupti ducimus praesentium quidem.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            exercitationem autem, nesciunt cupiditate a voluptas officiis
+            incidunt alias nihil reprehenderit suscipit corrupti saepe cumque.
+            Id qui corrupti ducimus praesentium quidem.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post-graduate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            exercitationem autem, nesciunt cupiditate a voluptas officiis
+            incidunt alias nihil reprehenderit suscipit corrupti saepe cumque.
+            Id qui corrupti ducimus praesentium quidem.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
