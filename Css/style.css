@@ -344,5 +344,38 @@ h3 {
   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("Images/designMe_07.jpg");
   background-position: center;
   background-size: cover;
+<<<<<<< HEAD
 }
 
+=======
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.cta h1 {
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+@media (max-width: 700px) {
+  .cta h1 {
+   font-size: 24px;
+  }
+}
+
+/* ------- Footer ---- */
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer h4 {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+>>>>>>> 1715bd6a66542343d5a9cea25413744db3649935
